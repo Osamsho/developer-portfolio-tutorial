@@ -10,6 +10,7 @@ body{
 }
 section{
     display:flex;
+    margin-bottom: 150px;
 }
 
 .half{
@@ -33,4 +34,13 @@ section{
 #top-banner{
    background-image: url('top-banner.png'); /* Remember background-repeat: while using background-image; */
    background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url('dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big .half{
+    padding-right: 10%;
 }
