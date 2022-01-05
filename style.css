@@ -8,6 +8,7 @@ body{
     color:#5A8BC3;
     font-weight:900;
 }
+
 .flexible-container{
     display:flex;
     margin-bottom: 150px;
@@ -16,6 +17,7 @@ body{
 .half{
     width:50%;
     padding-left: 5%;
+    
 }
 
 .half img{
@@ -36,6 +38,10 @@ body{
    background-repeat: no-repeat;
 }
 
+/* Top Banner Ends */
+
+/* Dream-Big Starts Here */
+
 .dream-big{
     background-image: url('dream-bg.png');
     background-repeat: no-repeat;
@@ -43,4 +49,49 @@ body{
 }
 .dream-big .half{
     padding-right: 10%;
+}
+
+.dream-big .half img{
+    border:5px solid rgb(144, 177, 238);
+    border-radius: 20px;
+}
+/* Dream Big Area Ends */
+
+
+/* Experience Area Starts -- */
+
+.orange-color{
+    color:#74f50b;
+}
+
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
+    
+}
+
+.experience-item{
+
+    flex-basis:40%;
+    margin:0 5%;
+    box-shadow:10px 10px 40px grey;
+    padding-left:20px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+#full-stack-dev{
+    border-left:5px solid;
+    border-image: linear-gradient(rgb(253, 105, 89),rgb(197, 41, 13));
+    border-image-slice: 1; 
+}
+#baby-dev{
+    border-left:5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
